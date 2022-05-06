@@ -1,0 +1,1011 @@
+# Bill of Materials - Other Components
+# date: Wed Apr 13 14:55:32 2022
+
+
+
+  ITEM_NUMBER   COMPANY PART NO         GEOMETRY                           COUNT   REFERENCE NAME              COMMENT   DESCRIPTION     
+
+  1             0402 Capacitor          cap_0402_1005Metric                34      C91 C92 C97 C101 C103       ---       100nF           
+                                                                                   C104 C115 C116 C117 C118                              
+                                                                                   C119 C120 C121 C122 C123                              
+                                                                                   C128 C129 C130 C131 C132                              
+                                                                                   C133 C329 C331 C333 C335                              
+                                                                                   C337 C339 C341 C343 C344                              
+                                                                                   C345 C346 C347 C348                                   
+  2             0402 Capacitor          cap_0402_1005Metric                14      C81 C82 C83 C84 C85 C86     ---       100nF 16V       
+                                                                                   C89 C90 C139 C140 C141                                
+                                                                                   C142 C357 C358                                        
+  3             0402 Capacitor          cap_0402_1005Metric                1       C138                        ---       100nF 25V       
+  4             0402 Capacitor          cap_0402_1005Metric                27      C105 C106 C107 C108 C109    ---       10nF            
+                                                                                   C110 C111 C112 C124 C125                              
+                                                                                   C126 C127 C134 C135 C136                              
+                                                                                   C137 C313 C330 C332 C334                              
+                                                                                   C336 C338 C340 C342 C349                              
+                                                                                   C350 C351                                             
+  5             0402 Capacitor          cap_0402_1005Metric                1       C114                        ---       1nF             
+  6             0402 Capacitor          cap_0402_1005Metric                2       C95 C96                     ---       1uF             
+  7             0402 Capacitor          cap_0402_1005Metric                6       C49 C52 C54 C64 C72 C76     ---       220nF 6V3 X6S   
+  8             0402 Capacitor          cap_0402_1005Metric                2       C98 C102                    ---       22pF            
+  9             0402 Capacitor          cap_0402_1005Metric                54      C1 C2 C3 C4 C5 C6 C7 C14    ---       4.7uF 6V3 X5R   
+                                                                                   C15 C16 C17 C18 C19 C20                               
+                                                                                   C21 C22 C23 C24 C25 C26                               
+                                                                                   C27 C28 C29 C30 C31 C32                               
+                                                                                   C33 C34 C35 C36 C37 C38                               
+                                                                                   C39 C40 C41 C42 C43 C44                               
+                                                                                   C45 C46 C47 C51 C53 C60                               
+                                                                                   C62 C63 C65 C73 C75 C77                               
+                                                                                   C78 C79 C80 C354                                      
+  10            0402 Capacitor          cap_0402_1005Metric                1       C113                        ---       470nF           
+  11            0402 Capacitor          cap_0402_1005Metric                9       C8 C9 C10 C11 C12 C13 C50   ---       470nF 10V X5R   
+                                                                                   C59 C74                                               
+  12            0402 Capacitor          cap_0402_1005Metric                2       C93 C99                     ---       47pF            
+  13            0402 Capacitor          cap_0402_1005Metric                2       C94 C100                    ---       560pF           
+  14            0402 Capacitor          cap_0402_1005Metric                12      C48 C55 C56 C57 C58 C61     ---       DNF             
+                                                                                   C66 C67 C68 C69 C70 C71                               
+  15            0402 Resistor           0402_1005Metric                    19      R44 R45 R46 R47 R83 R91     ---       0               
+                                                                                   R100 R238 R239 R240 R246                              
+                                                                                   R249 R252 R255 R260 R261                              
+                                                                                   R262 R263 R264                                        
+  16            0402 Resistor           0402_1005Metric                    1       R189                        ---       0R              
+  17            0402 Resistor           0402_1005Metric                    36      R1 R16 R17 R18 R19 R23      ---       100             
+                                                                                   R24 R25 R26 R27 R28 R29                               
+                                                                                   R30 R31 R32 R33 R34 R35                               
+                                                                                   R36 R38 R129 R130 R131                                
+                                                                                   R208 R209 R210 R211 R212                              
+                                                                                   R213 R223 R226 R229 R230                              
+                                                                                   R231 R232 R233                                        
+  18            0402 Resistor           0402_1005Metric                    7       R74 R97 R101 R245 R248      ---       100K            
+                                                                                   R251 R257                                             
+  19            0402 Resistor           0402_1005Metric                    1       R54                         ---       100R            
+  20            0402 Resistor           0402_1005Metric                    41      R8 R9 R12 R13 R14 R15 R20   ---       10K             
+                                                                                   R21 R22 R66 R76 R78 R95                               
+                                                                                   R136 R137 R138 R140 R141                              
+                                                                                   R142 R143 R144 R145 R148                              
+                                                                                   R149 R150 R151 R152 R153                              
+                                                                                   R154 R155 R170 R171 R172                              
+                                                                                   R173 R197 R198 R216 R217                              
+                                                                                   R220 R221 R222                                        
+  21            0402 Resistor           0402_1005Metric                    1       R134                        ---       10K2            
+  22            0402 Resistor           0402_1005Metric                    1       R67                         ---       10K5            
+  23            0402 Resistor           0402_1005Metric                    7       R81 R84 R87 R88 R89 R92     ---       12K             
+                                                                                   R258                                                  
+  24            0402 Resistor           0402_1005Metric                    3       R39 R40 R41                 ---       15              
+  25            0402 Resistor           0402_1005Metric                    2       R58 R59                     ---       150K            
+  26            0402 Resistor           0402_1005Metric                    2       R82 R85                     ---       16K9            
+  27            0402 Resistor           0402_1005Metric                    3       R68 R90 R93                 ---       18K             
+  28            0402 Resistor           0402_1005Metric                    9       R48 R75 R77 R174 R190       ---       1K              
+                                                                                   R191 R192 R193 R265                                   
+  29            0402 Resistor           0402_1005Metric                    2       R64 R73                     ---       1K5             
+  30            0402 Resistor           0402_1005Metric                    2       R127 R128                   ---       1R              
+  31            0402 Resistor           0402_1005Metric                    8       R2 R3 R4 R5 R6 R7 R236      ---       200             
+                                                                                   R237                                                  
+  32            0402 Resistor           0402_1005Metric                    2       R52 R53                     ---       200R            
+  33            0402 Resistor           0402_1005Metric                    2       R65 R259                    ---       20K             
+  34            0402 Resistor           0402_1005Metric                    4       R62 R63 R69 R70             ---       22K             
+  35            0402 Resistor           0402_1005Metric                    2       R49 R266                    ---       22K1            
+  36            0402 Resistor           0402_1005Metric                    2       R60 R72                     ---       23K2            
+  37            0402 Resistor           0402_1005Metric                    23      R42 R55 R146 R156 R158      ---       240             
+                                                                                   R160 R162 R164 R166 R168                              
+                                                                                   R186 R201 R202 R203 R204                              
+                                                                                   R205 R206 R207 R214 R215                              
+                                                                                   R224 R225 R235                                        
+  38            0402 Resistor           0402_1005Metric                    12      R43 R106 R147 R157 R159     ---       270             
+                                                                                   R161 R163 R165 R167 R169                              
+                                                                                   R185 R188                                             
+  39            0402 Resistor           0402_1005Metric                    1       R56                         ---       2K              
+  40            0402 Resistor           0402_1005Metric                    2       R177 R181                   ---       2K4             
+  41            0402 Resistor           0402_1005Metric                    1       R61                         ---       2R              
+  42            0402 Resistor           0402_1005Metric                    1       R133                        ---       31K6            
+  43            0402 Resistor           0402_1005Metric                    2       R99 R135                    ---       36K             
+  44            0402 Resistor           0402_1005Metric                    1       R218                        ---       3K48            
+  45            0402 Resistor           0402_1005Metric                    2       R50 R267                    ---       47K5            
+  46            0402 Resistor           0402_1005Metric                    7       R37 R102 R103 R104 R105     ---       49R9            
+                                                                                   R121 R122                                             
+  47            0402 Resistor           0402_1005Metric                    1       R132                        ---       4K02            
+  48            0402 Resistor           0402_1005Metric                    12      R51 R176 R178 R179 R180     ---       4K7             
+                                                                                   R182 R183 R184 R187 R200                              
+                                                                                   R219 R254                                             
+  49            0402 Resistor           0402_1005Metric                    2       R96 R139                    ---       56K             
+  50            0402 Resistor           0402_1005Metric                    1       R79                         ---       5K6             
+  51            0402 Resistor           0402_1005Metric                    1       R57                         ---       84K5            
+  52            0402 Resistor           0402_1005Metric                    1       R98                         ---       9K              
+  53            0402 Resistor           0402_1005Metric                    40      R10 R11 R71 R80 R86 R94     ---       DNF             
+                                                                                   R107 R108 R109 R110 R111                              
+                                                                                   R112 R113 R114 R115 R116                              
+                                                                                   R117 R118 R119 R120 R123                              
+                                                                                   R124 R125 R126 R175 R194                              
+                                                                                   R195 R196 R199 R227 R228                              
+                                                                                   R234 R241 R242 R243 R244                              
+                                                                                   R247 R250 R253 R256                                   
+  54            0603 Capacitor          cap_0603_1608Metric                14      C259 C260 C261 C262 C263    ---       4.7uF 6V3       
+                                                                                   C264 C265 C266 C267 C268                              
+                                                                                   C269 C270 C271 C272                                   
+  55            0603 Capacitor          cap_0603_1608Metric                4       C257 C258 C359 C360         ---       4u7 10V         
+  56            0805 Capacitor          C0805                              2       C311 C312                   ---       1uF 16V         
+  57            1206 Capacitor          C1206                              32      C143 C144 C145 C146 C147    ---       100uF 4V X6S    
+                                                                                   C148 C149 C150 C151 C152                              
+                                                                                   C153 C154 C155 C156 C157                              
+                                                                                   C158 C159 C160 C161 C162                              
+                                                                                   C163 C164 C165 C166 C167                              
+                                                                                   C168 C169 C170 C171 C172                              
+                                                                                   C173 C174                                             
+  58            1206 Capacitor          C1206                              11      C175 C176 C179 C182 C185    ---       10uF 25V        
+                                                                                   C186 C187 C188 C189 C355                              
+                                                                                   C356                                                  
+  59            1206 Capacitor          C1206                              6       C177 C178 C180 C181 C183    ---       47uF 6V3        
+                                                                                   C184                                                  
+  60            1210 Capacitor          C1210                              5       C250 C251 C252 C253 C254    ---       100uF 6V3 X6S   
+  61            1210 Capacitor          C1210                              2       C255 C256                   ---       47uF 6V3 X6S    
+  62            1N4148W T4              SOD123                             1       D5                          ---                       
+  63            5x1 Header              header5x1                          1       J9                          ---                       
+  64            AD9152BCPZ              QFN50P800X800X80-57N-D             1       U10                         ---                       
+  65            AD9528                  QFN50P1000X1000X100-73N-D          1       U8                          ---                       
+  66            AD9680BCPZ-500          QFN50P900X900X80-65N-D             2       U6 U7                       ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             7       VR4 VR5 VR6 VR7 VR8 VR9     ---                       
+                                                                                   VR10                                                  
+  68            ADP1850ACPZ             QFN50P500X500X75-33N               1       VR11                        ---                       
+  69            ADP2303ARDZ             SOIC127P600X175-9N_EP              3       VR1 VR2 VR3                 ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   11      DS2 DS3 DS4 DS5 DS6 DS7     ---                       
+                                                                                   DS8 DS9 DS10 DS11 DS13                                
+  71            ASE-25.000MHZ-LC-T      ASE24576MHZLCT                     1       X2                          ---                       
+  72            B3F-1020                b3f-1020                           4       SW1 SW2 SW3 SW4             ---                       
+  73            BSC030N03MS             PG-TDSON-8                         2       TR2 TR3                     ---                       
+  74            BSC059N04LS             PG-TDSON-8                         2       TR4 TR5                     ---                       
+  75            BSS138                  SOT23                              16      TR6 TR7 TR8 TR9 TR10 TR11   ---                       
+                                                                                   TR12 TR13 TR14 TR15 TR16                              
+                                                                                   TR17 TR18 TR19 TR20 TR21                              
+  76            BZT52HC3V3WF-7          SOD123                             4       D9 D10 D11 D12              ---                       
+  77            Case D Tantalum         Tantalum_Case_D                    8       C242 C243 C244 C245 C246    ---       470uF 2V        
+                                                                                   C247 C248 C249                                        
+  78            CCPD-575X-50-100.000    XTAL5x7.5mm                        1       X1                          ---                       
+  79            CLF10060NIT-4R7N-D      CLF10060NI-D_ind                   3       L5 L6 L7                    ---                       
+  80            CP2102N-A02-GQFN20      CP2102NA02GQFN20                   2       U1 U11                      ---                       
+  81            DDZ9678                 SOD123                             1       D6                          ---                       
+  82            Digilent 410-308-B      410308B_digilentJTAG               1       U9                          ---                       
+  83            DLFCN-290+              DLFCN290                           2       L1 L2                       ---                       
+  84            ETC1-1-13TR             E_SERIES                           2       L8 L9                       ---                       
+  85            FIN1104MTC              SOP65P640X110-24N                  3       U3 U4 U5                    ---                       
+  86            GCM1555C1H101JA16D      0402                               1       C353                        ---       100pF           
+  87            GRJ155R60J106ME11D      0402                               14      C191 C198 C202 C204 C211    ---       10uF            
+                                                                                   C215 C216 C218 C220 C223                              
+                                                                                   C325 C326 C327 C328                                   
+  88            GRM155R71C104JA88D      0402                               54      C190 C192 C193 C194 C195    ---       0.1uF           
+                                                                                   C196 C197 C199 C200 C201                              
+                                                                                   C203 C205 C206 C207 C208                              
+                                                                                   C209 C210 C212 C213 C214                              
+                                                                                   C217 C219 C221 C222 C224                              
+                                                                                   C225 C226 C227 C228 C229                              
+                                                                                   C230 C231 C232 C233 C234                              
+                                                                                   C235 C236 C237 C238 C239                              
+                                                                                   C240 C241 C314 C315 C316                              
+                                                                                   C317 C318 C319 C320 C321                              
+                                                                                   C322 C323 C324 C352                                   
+  89            GRM155R71H103KA88D      0402                               40      C87 C88 C273 C274 C275      ---       0.01uF          
+                                                                                   C276 C277 C278 C279 C280                              
+                                                                                   C281 C282 C283 C284 C285                              
+                                                                                   C286 C287 C288 C289 C290                              
+                                                                                   C291 C292 C293 C294 C295                              
+                                                                                   C296 C297 C298 C299 C300                              
+                                                                                   C301 C302 C303 C304 C305                              
+                                                                                   C306 C307 C308 C309 C310                              
+  90            Harwin_M300-MV30645M1   HARWIN_M300-MV30645M1              1       J2                          ---                       
+  91            LTST-C191KGKT           LED0603                            1       DS12                        ---                       
+  92            LTST-C191KRKT           LED0603                            1       DS1                         ---                       
+  93            MAX4036EXK+T            SOT65P210X110-5N                   1       U16                         ---                       
+  94            MCX-J-P-H-ST-SM1        MCX-J-P-H-ST-SM1                   2       SK5 SK6                     ---                       
+  95            Molex 105017-0001       molex_105017-0001                  3       SK1 SK2 SK7                 ---                       
+  96            Molex 52745-2097        molex_52745-2097_FPC               2       J3 J4                       ---                       
+  97            Molex 53261-1571        molex_53261-1571                   2       J6 J7                       ---                       
+  98            Molex 87832-1420        MOLEX_87832-1420                   1       J5                          ---                       
+  99            Molex_22-11-2032        HDRV3W87P0X254_1X3_747X635X1105P   1       J1                          ---                       
+  100           MT25QU256ABA8ESF-0SIT   SOIC127P1032X265-16N               2       U14 U15                     ---                       
+  101           RFN20NS6STL             RFN20NS6STL                        1       D4                          ---                       
+  102           SF-1206HH15M-2          C1206                              1       F1                          ---                       
+  103           Si2300DS                SOT23                              1       TR1                         ---                       
+  104           SN74AVC4T245RSVR        SN74AVC4T245RSVR                   1       U13                         ---                       
+  105           SP0503BAHTG             SP0503BAHTG                        3       D7 D8 D13                   ---                       
+  106           SSB43LHE3               DIOM5436X244N                      3       D1 D2 D3                    ---                       
+  107           Star Point              star_pointx4                       49      SP1 SP2 SP3 SP4 SP5 SP6     ---                       
+                                                                                   SP7 SP8 SP9 SP10 SP11                                 
+                                                                                   SP12 SP13 SP14 SP15 SP16                              
+                                                                                   SP17 SP18 SP19 SP20 SP21                              
+                                                                                   SP22 SP23 SP24 SP25 SP26                              
+                                                                                   SP27 SP28 SP29 SP30 SP31                              
+                                                                                   SP32 SP33 SP34 SP35 SP36                              
+                                                                                   SP37 SP38 SP39 SP40 SP41                              
+                                                                                   SP42 SP43 SP44 SP45 SP46                              
+                                                                                   SP47 SP48 SP49                                        
+  108           TE_5-1814400-2          TE_5-1814400-2                     2       SK3 SK4                     ---                       
+  109           Wurth 742792312         INDM120120X1000N                   2       L11 L12                     ---                       
+  110           Wurth 74431012012       wurth_6x10mm_smd                   1       L10                         ---                       
+  111           Wurth 744325120         wurth_10.5x10.2mm_smd              2       L3 L4                       ---                       
+  112           XCKU040-2FFVA1156E      FFVA1156                           1       U2                          ---                       
+
+
+  ITEM_NUMBER   COMPANY PART NO         GEOMETRY                           REFERENCE NAME   COMMENT   DESCRIPTION     
+
+  9             0402 Capacitor          cap_0402_1005Metric                C1               ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C2               ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C3               ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C4               ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C5               ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C6               ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C7               ---       4.7uF 6V3 X5R   
+  11            0402 Capacitor          cap_0402_1005Metric                C8               ---       470nF 10V X5R   
+  11            0402 Capacitor          cap_0402_1005Metric                C9               ---       470nF 10V X5R   
+  11            0402 Capacitor          cap_0402_1005Metric                C10              ---       470nF 10V X5R   
+  11            0402 Capacitor          cap_0402_1005Metric                C11              ---       470nF 10V X5R   
+  11            0402 Capacitor          cap_0402_1005Metric                C12              ---       470nF 10V X5R   
+  11            0402 Capacitor          cap_0402_1005Metric                C13              ---       470nF 10V X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C14              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C15              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C16              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C17              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C18              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C19              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C20              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C21              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C22              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C23              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C24              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C25              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C26              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C27              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C28              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C29              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C30              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C31              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C32              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C33              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C34              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C35              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C36              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C37              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C38              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C39              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C40              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C41              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C42              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C43              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C44              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C45              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C46              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C47              ---       4.7uF 6V3 X5R   
+  14            0402 Capacitor          cap_0402_1005Metric                C48              ---       DNF             
+  7             0402 Capacitor          cap_0402_1005Metric                C49              ---       220nF 6V3 X6S   
+  11            0402 Capacitor          cap_0402_1005Metric                C50              ---       470nF 10V X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C51              ---       4.7uF 6V3 X5R   
+  7             0402 Capacitor          cap_0402_1005Metric                C52              ---       220nF 6V3 X6S   
+  9             0402 Capacitor          cap_0402_1005Metric                C53              ---       4.7uF 6V3 X5R   
+  7             0402 Capacitor          cap_0402_1005Metric                C54              ---       220nF 6V3 X6S   
+  14            0402 Capacitor          cap_0402_1005Metric                C55              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C56              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C57              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C58              ---       DNF             
+  11            0402 Capacitor          cap_0402_1005Metric                C59              ---       470nF 10V X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C60              ---       4.7uF 6V3 X5R   
+  14            0402 Capacitor          cap_0402_1005Metric                C61              ---       DNF             
+  9             0402 Capacitor          cap_0402_1005Metric                C62              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C63              ---       4.7uF 6V3 X5R   
+  7             0402 Capacitor          cap_0402_1005Metric                C64              ---       220nF 6V3 X6S   
+  9             0402 Capacitor          cap_0402_1005Metric                C65              ---       4.7uF 6V3 X5R   
+  14            0402 Capacitor          cap_0402_1005Metric                C66              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C67              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C68              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C69              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C70              ---       DNF             
+  14            0402 Capacitor          cap_0402_1005Metric                C71              ---       DNF             
+  7             0402 Capacitor          cap_0402_1005Metric                C72              ---       220nF 6V3 X6S   
+  9             0402 Capacitor          cap_0402_1005Metric                C73              ---       4.7uF 6V3 X5R   
+  11            0402 Capacitor          cap_0402_1005Metric                C74              ---       470nF 10V X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C75              ---       4.7uF 6V3 X5R   
+  7             0402 Capacitor          cap_0402_1005Metric                C76              ---       220nF 6V3 X6S   
+  9             0402 Capacitor          cap_0402_1005Metric                C77              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C78              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C79              ---       4.7uF 6V3 X5R   
+  9             0402 Capacitor          cap_0402_1005Metric                C80              ---       4.7uF 6V3 X5R   
+  2             0402 Capacitor          cap_0402_1005Metric                C81              ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C82              ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C83              ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C84              ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C85              ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C86              ---       100nF 16V       
+  89            GRM155R71H103KA88D      0402                               C87              ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C88              ---       0.01uF          
+  2             0402 Capacitor          cap_0402_1005Metric                C89              ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C90              ---       100nF 16V       
+  1             0402 Capacitor          cap_0402_1005Metric                C91              ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C92              ---       100nF           
+  12            0402 Capacitor          cap_0402_1005Metric                C93              ---       47pF            
+  13            0402 Capacitor          cap_0402_1005Metric                C94              ---       560pF           
+  6             0402 Capacitor          cap_0402_1005Metric                C95              ---       1uF             
+  6             0402 Capacitor          cap_0402_1005Metric                C96              ---       1uF             
+  1             0402 Capacitor          cap_0402_1005Metric                C97              ---       100nF           
+  8             0402 Capacitor          cap_0402_1005Metric                C98              ---       22pF            
+  12            0402 Capacitor          cap_0402_1005Metric                C99              ---       47pF            
+  13            0402 Capacitor          cap_0402_1005Metric                C100             ---       560pF           
+  1             0402 Capacitor          cap_0402_1005Metric                C101             ---       100nF           
+  8             0402 Capacitor          cap_0402_1005Metric                C102             ---       22pF            
+  1             0402 Capacitor          cap_0402_1005Metric                C103             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C104             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C105             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C106             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C107             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C108             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C109             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C110             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C111             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C112             ---       10nF            
+  10            0402 Capacitor          cap_0402_1005Metric                C113             ---       470nF           
+  5             0402 Capacitor          cap_0402_1005Metric                C114             ---       1nF             
+  1             0402 Capacitor          cap_0402_1005Metric                C115             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C116             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C117             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C118             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C119             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C120             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C121             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C122             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C123             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C124             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C125             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C126             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C127             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C128             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C129             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C130             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C131             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C132             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C133             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C134             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C135             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C136             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C137             ---       10nF            
+  3             0402 Capacitor          cap_0402_1005Metric                C138             ---       100nF 25V       
+  2             0402 Capacitor          cap_0402_1005Metric                C139             ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C140             ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C141             ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C142             ---       100nF 16V       
+  57            1206 Capacitor          C1206                              C143             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C144             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C145             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C146             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C147             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C148             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C149             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C150             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C151             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C152             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C153             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C154             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C155             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C156             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C157             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C158             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C159             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C160             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C161             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C162             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C163             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C164             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C165             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C166             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C167             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C168             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C169             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C170             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C171             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C172             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C173             ---       100uF 4V X6S    
+  57            1206 Capacitor          C1206                              C174             ---       100uF 4V X6S    
+  58            1206 Capacitor          C1206                              C175             ---       10uF 25V        
+  58            1206 Capacitor          C1206                              C176             ---       10uF 25V        
+  59            1206 Capacitor          C1206                              C177             ---       47uF 6V3        
+  59            1206 Capacitor          C1206                              C178             ---       47uF 6V3        
+  58            1206 Capacitor          C1206                              C179             ---       10uF 25V        
+  59            1206 Capacitor          C1206                              C180             ---       47uF 6V3        
+  59            1206 Capacitor          C1206                              C181             ---       47uF 6V3        
+  58            1206 Capacitor          C1206                              C182             ---       10uF 25V        
+  59            1206 Capacitor          C1206                              C183             ---       47uF 6V3        
+  59            1206 Capacitor          C1206                              C184             ---       47uF 6V3        
+  58            1206 Capacitor          C1206                              C185             ---       10uF 25V        
+  58            1206 Capacitor          C1206                              C186             ---       10uF 25V        
+  58            1206 Capacitor          C1206                              C187             ---       10uF 25V        
+  58            1206 Capacitor          C1206                              C188             ---       10uF 25V        
+  58            1206 Capacitor          C1206                              C189             ---       10uF 25V        
+  88            GRM155R71C104JA88D      0402                               C190             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C191             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C192             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C193             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C194             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C195             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C196             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C197             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C198             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C199             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C200             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C201             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C202             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C203             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C204             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C205             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C206             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C207             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C208             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C209             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C210             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C211             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C212             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C213             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C214             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C215             ---       10uF            
+  87            GRJ155R60J106ME11D      0402                               C216             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C217             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C218             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C219             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C220             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C221             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C222             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C223             ---       10uF            
+  88            GRM155R71C104JA88D      0402                               C224             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C225             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C226             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C227             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C228             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C229             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C230             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C231             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C232             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C233             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C234             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C235             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C236             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C237             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C238             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C239             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C240             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C241             ---       0.1uF           
+  77            Case D Tantalum         Tantalum_Case_D                    C242             ---       470uF 2V        
+  77            Case D Tantalum         Tantalum_Case_D                    C243             ---       470uF 2V        
+  77            Case D Tantalum         Tantalum_Case_D                    C244             ---       470uF 2V        
+  77            Case D Tantalum         Tantalum_Case_D                    C245             ---       470uF 2V        
+  77            Case D Tantalum         Tantalum_Case_D                    C246             ---       470uF 2V        
+  77            Case D Tantalum         Tantalum_Case_D                    C247             ---       470uF 2V        
+  77            Case D Tantalum         Tantalum_Case_D                    C248             ---       470uF 2V        
+  77            Case D Tantalum         Tantalum_Case_D                    C249             ---       470uF 2V        
+  60            1210 Capacitor          C1210                              C250             ---       100uF 6V3 X6S   
+  60            1210 Capacitor          C1210                              C251             ---       100uF 6V3 X6S   
+  60            1210 Capacitor          C1210                              C252             ---       100uF 6V3 X6S   
+  60            1210 Capacitor          C1210                              C253             ---       100uF 6V3 X6S   
+  60            1210 Capacitor          C1210                              C254             ---       100uF 6V3 X6S   
+  61            1210 Capacitor          C1210                              C255             ---       47uF 6V3 X6S    
+  61            1210 Capacitor          C1210                              C256             ---       47uF 6V3 X6S    
+  55            0603 Capacitor          cap_0603_1608Metric                C257             ---       4u7 10V         
+  55            0603 Capacitor          cap_0603_1608Metric                C258             ---       4u7 10V         
+  54            0603 Capacitor          cap_0603_1608Metric                C259             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C260             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C261             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C262             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C263             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C264             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C265             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C266             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C267             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C268             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C269             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C270             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C271             ---       4.7uF 6V3       
+  54            0603 Capacitor          cap_0603_1608Metric                C272             ---       4.7uF 6V3       
+  89            GRM155R71H103KA88D      0402                               C273             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C274             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C275             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C276             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C277             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C278             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C279             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C280             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C281             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C282             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C283             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C284             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C285             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C286             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C287             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C288             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C289             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C290             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C291             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C292             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C293             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C294             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C295             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C296             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C297             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C298             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C299             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C300             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C301             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C302             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C303             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C304             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C305             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C306             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C307             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C308             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C309             ---       0.01uF          
+  89            GRM155R71H103KA88D      0402                               C310             ---       0.01uF          
+  56            0805 Capacitor          C0805                              C311             ---       1uF 16V         
+  56            0805 Capacitor          C0805                              C312             ---       1uF 16V         
+  4             0402 Capacitor          cap_0402_1005Metric                C313             ---       10nF            
+  88            GRM155R71C104JA88D      0402                               C314             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C315             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C316             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C317             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C318             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C319             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C320             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C321             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C322             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C323             ---       0.1uF           
+  88            GRM155R71C104JA88D      0402                               C324             ---       0.1uF           
+  87            GRJ155R60J106ME11D      0402                               C325             ---       10uF            
+  87            GRJ155R60J106ME11D      0402                               C326             ---       10uF            
+  87            GRJ155R60J106ME11D      0402                               C327             ---       10uF            
+  87            GRJ155R60J106ME11D      0402                               C328             ---       10uF            
+  1             0402 Capacitor          cap_0402_1005Metric                C329             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C330             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C331             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C332             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C333             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C334             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C335             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C336             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C337             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C338             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C339             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C340             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C341             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C342             ---       10nF            
+  1             0402 Capacitor          cap_0402_1005Metric                C343             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C344             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C345             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C346             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C347             ---       100nF           
+  1             0402 Capacitor          cap_0402_1005Metric                C348             ---       100nF           
+  4             0402 Capacitor          cap_0402_1005Metric                C349             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C350             ---       10nF            
+  4             0402 Capacitor          cap_0402_1005Metric                C351             ---       10nF            
+  88            GRM155R71C104JA88D      0402                               C352             ---       0.1uF           
+  86            GCM1555C1H101JA16D      0402                               C353             ---       100pF           
+  9             0402 Capacitor          cap_0402_1005Metric                C354             ---       4.7uF 6V3 X5R   
+  58            1206 Capacitor          C1206                              C355             ---       10uF 25V        
+  58            1206 Capacitor          C1206                              C356             ---       10uF 25V        
+  2             0402 Capacitor          cap_0402_1005Metric                C357             ---       100nF 16V       
+  2             0402 Capacitor          cap_0402_1005Metric                C358             ---       100nF 16V       
+  55            0603 Capacitor          cap_0603_1608Metric                C359             ---       4u7 10V         
+  55            0603 Capacitor          cap_0603_1608Metric                C360             ---       4u7 10V         
+  106           SSB43LHE3               DIOM5436X244N                      D1               ---                       
+  106           SSB43LHE3               DIOM5436X244N                      D2               ---                       
+  106           SSB43LHE3               DIOM5436X244N                      D3               ---                       
+  101           RFN20NS6STL             RFN20NS6STL                        D4               ---                       
+  62            1N4148W T4              SOD123                             D5               ---                       
+  81            DDZ9678                 SOD123                             D6               ---                       
+  105           SP0503BAHTG             SP0503BAHTG                        D7               ---                       
+  105           SP0503BAHTG             SP0503BAHTG                        D8               ---                       
+  76            BZT52HC3V3WF-7          SOD123                             D9               ---                       
+  76            BZT52HC3V3WF-7          SOD123                             D10              ---                       
+  76            BZT52HC3V3WF-7          SOD123                             D11              ---                       
+  76            BZT52HC3V3WF-7          SOD123                             D12              ---                       
+  105           SP0503BAHTG             SP0503BAHTG                        D13              ---                       
+  92            LTST-C191KRKT           LED0603                            DS1              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS2              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS3              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS4              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS5              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS6              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS7              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS8              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS9              ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS10             ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS11             ---                       
+  91            LTST-C191KGKT           LED0603                            DS12             ---                       
+  70            APHB1608CGKSURKC        APHB1608CGKSURKC                   DS13             ---                       
+  102           SF-1206HH15M-2          C1206                              F1               ---                       
+  99            Molex_22-11-2032        HDRV3W87P0X254_1X3_747X635X1105P   J1               ---                       
+  90            Harwin_M300-MV30645M1   HARWIN_M300-MV30645M1              J2               ---                       
+  96            Molex 52745-2097        molex_52745-2097_FPC               J3               ---                       
+  96            Molex 52745-2097        molex_52745-2097_FPC               J4               ---                       
+  98            Molex 87832-1420        MOLEX_87832-1420                   J5               ---                       
+  97            Molex 53261-1571        molex_53261-1571                   J6               ---                       
+  97            Molex 53261-1571        molex_53261-1571                   J7               ---                       
+  63            5x1 Header              header5x1                          J9               ---                       
+  83            DLFCN-290+              DLFCN290                           L1               ---                       
+  83            DLFCN-290+              DLFCN290                           L2               ---                       
+  111           Wurth 744325120         wurth_10.5x10.2mm_smd              L3               ---                       
+  111           Wurth 744325120         wurth_10.5x10.2mm_smd              L4               ---                       
+  79            CLF10060NIT-4R7N-D      CLF10060NI-D_ind                   L5               ---                       
+  79            CLF10060NIT-4R7N-D      CLF10060NI-D_ind                   L6               ---                       
+  79            CLF10060NIT-4R7N-D      CLF10060NI-D_ind                   L7               ---                       
+  84            ETC1-1-13TR             E_SERIES                           L8               ---                       
+  84            ETC1-1-13TR             E_SERIES                           L9               ---                       
+  110           Wurth 74431012012       wurth_6x10mm_smd                   L10              ---                       
+  109           Wurth 742792312         INDM120120X1000N                   L11              ---                       
+  109           Wurth 742792312         INDM120120X1000N                   L12              ---                       
+  17            0402 Resistor           0402_1005Metric                    R1               ---       100             
+  31            0402 Resistor           0402_1005Metric                    R2               ---       200             
+  31            0402 Resistor           0402_1005Metric                    R3               ---       200             
+  31            0402 Resistor           0402_1005Metric                    R4               ---       200             
+  31            0402 Resistor           0402_1005Metric                    R5               ---       200             
+  31            0402 Resistor           0402_1005Metric                    R6               ---       200             
+  31            0402 Resistor           0402_1005Metric                    R7               ---       200             
+  20            0402 Resistor           0402_1005Metric                    R8               ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R9               ---       10K             
+  53            0402 Resistor           0402_1005Metric                    R10              ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R11              ---       DNF             
+  20            0402 Resistor           0402_1005Metric                    R12              ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R13              ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R14              ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R15              ---       10K             
+  17            0402 Resistor           0402_1005Metric                    R16              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R17              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R18              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R19              ---       100             
+  20            0402 Resistor           0402_1005Metric                    R20              ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R21              ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R22              ---       10K             
+  17            0402 Resistor           0402_1005Metric                    R23              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R24              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R25              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R26              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R27              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R28              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R29              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R30              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R31              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R32              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R33              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R34              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R35              ---       100             
+  17            0402 Resistor           0402_1005Metric                    R36              ---       100             
+  46            0402 Resistor           0402_1005Metric                    R37              ---       49R9            
+  17            0402 Resistor           0402_1005Metric                    R38              ---       100             
+  24            0402 Resistor           0402_1005Metric                    R39              ---       15              
+  24            0402 Resistor           0402_1005Metric                    R40              ---       15              
+  24            0402 Resistor           0402_1005Metric                    R41              ---       15              
+  37            0402 Resistor           0402_1005Metric                    R42              ---       240             
+  38            0402 Resistor           0402_1005Metric                    R43              ---       270             
+  15            0402 Resistor           0402_1005Metric                    R44              ---       0               
+  15            0402 Resistor           0402_1005Metric                    R45              ---       0               
+  15            0402 Resistor           0402_1005Metric                    R46              ---       0               
+  15            0402 Resistor           0402_1005Metric                    R47              ---       0               
+  28            0402 Resistor           0402_1005Metric                    R48              ---       1K              
+  35            0402 Resistor           0402_1005Metric                    R49              ---       22K1            
+  45            0402 Resistor           0402_1005Metric                    R50              ---       47K5            
+  48            0402 Resistor           0402_1005Metric                    R51              ---       4K7             
+  32            0402 Resistor           0402_1005Metric                    R52              ---       200R            
+  32            0402 Resistor           0402_1005Metric                    R53              ---       200R            
+  19            0402 Resistor           0402_1005Metric                    R54              ---       100R            
+  37            0402 Resistor           0402_1005Metric                    R55              ---       240             
+  39            0402 Resistor           0402_1005Metric                    R56              ---       2K              
+  51            0402 Resistor           0402_1005Metric                    R57              ---       84K5            
+  25            0402 Resistor           0402_1005Metric                    R58              ---       150K            
+  25            0402 Resistor           0402_1005Metric                    R59              ---       150K            
+  36            0402 Resistor           0402_1005Metric                    R60              ---       23K2            
+  41            0402 Resistor           0402_1005Metric                    R61              ---       2R              
+  34            0402 Resistor           0402_1005Metric                    R62              ---       22K             
+  34            0402 Resistor           0402_1005Metric                    R63              ---       22K             
+  29            0402 Resistor           0402_1005Metric                    R64              ---       1K5             
+  33            0402 Resistor           0402_1005Metric                    R65              ---       20K             
+  20            0402 Resistor           0402_1005Metric                    R66              ---       10K             
+  22            0402 Resistor           0402_1005Metric                    R67              ---       10K5            
+  27            0402 Resistor           0402_1005Metric                    R68              ---       18K             
+  34            0402 Resistor           0402_1005Metric                    R69              ---       22K             
+  34            0402 Resistor           0402_1005Metric                    R70              ---       22K             
+  53            0402 Resistor           0402_1005Metric                    R71              ---       DNF             
+  36            0402 Resistor           0402_1005Metric                    R72              ---       23K2            
+  29            0402 Resistor           0402_1005Metric                    R73              ---       1K5             
+  18            0402 Resistor           0402_1005Metric                    R74              ---       100K            
+  28            0402 Resistor           0402_1005Metric                    R75              ---       1K              
+  20            0402 Resistor           0402_1005Metric                    R76              ---       10K             
+  28            0402 Resistor           0402_1005Metric                    R77              ---       1K              
+  20            0402 Resistor           0402_1005Metric                    R78              ---       10K             
+  50            0402 Resistor           0402_1005Metric                    R79              ---       5K6             
+  53            0402 Resistor           0402_1005Metric                    R80              ---       DNF             
+  23            0402 Resistor           0402_1005Metric                    R81              ---       12K             
+  26            0402 Resistor           0402_1005Metric                    R82              ---       16K9            
+  15            0402 Resistor           0402_1005Metric                    R83              ---       0               
+  23            0402 Resistor           0402_1005Metric                    R84              ---       12K             
+  26            0402 Resistor           0402_1005Metric                    R85              ---       16K9            
+  53            0402 Resistor           0402_1005Metric                    R86              ---       DNF             
+  23            0402 Resistor           0402_1005Metric                    R87              ---       12K             
+  23            0402 Resistor           0402_1005Metric                    R88              ---       12K             
+  23            0402 Resistor           0402_1005Metric                    R89              ---       12K             
+  27            0402 Resistor           0402_1005Metric                    R90              ---       18K             
+  15            0402 Resistor           0402_1005Metric                    R91              ---       0               
+  23            0402 Resistor           0402_1005Metric                    R92              ---       12K             
+  27            0402 Resistor           0402_1005Metric                    R93              ---       18K             
+  53            0402 Resistor           0402_1005Metric                    R94              ---       DNF             
+  20            0402 Resistor           0402_1005Metric                    R95              ---       10K             
+  49            0402 Resistor           0402_1005Metric                    R96              ---       56K             
+  18            0402 Resistor           0402_1005Metric                    R97              ---       100K            
+  52            0402 Resistor           0402_1005Metric                    R98              ---       9K              
+  43            0402 Resistor           0402_1005Metric                    R99              ---       36K             
+  15            0402 Resistor           0402_1005Metric                    R100             ---       0               
+  18            0402 Resistor           0402_1005Metric                    R101             ---       100K            
+  46            0402 Resistor           0402_1005Metric                    R102             ---       49R9            
+  46            0402 Resistor           0402_1005Metric                    R103             ---       49R9            
+  46            0402 Resistor           0402_1005Metric                    R104             ---       49R9            
+  46            0402 Resistor           0402_1005Metric                    R105             ---       49R9            
+  38            0402 Resistor           0402_1005Metric                    R106             ---       270             
+  53            0402 Resistor           0402_1005Metric                    R107             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R108             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R109             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R110             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R111             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R112             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R113             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R114             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R115             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R116             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R117             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R118             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R119             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R120             ---       DNF             
+  46            0402 Resistor           0402_1005Metric                    R121             ---       49R9            
+  46            0402 Resistor           0402_1005Metric                    R122             ---       49R9            
+  53            0402 Resistor           0402_1005Metric                    R123             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R124             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R125             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R126             ---       DNF             
+  30            0402 Resistor           0402_1005Metric                    R127             ---       1R              
+  30            0402 Resistor           0402_1005Metric                    R128             ---       1R              
+  17            0402 Resistor           0402_1005Metric                    R129             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R130             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R131             ---       100             
+  47            0402 Resistor           0402_1005Metric                    R132             ---       4K02            
+  42            0402 Resistor           0402_1005Metric                    R133             ---       31K6            
+  21            0402 Resistor           0402_1005Metric                    R134             ---       10K2            
+  43            0402 Resistor           0402_1005Metric                    R135             ---       36K             
+  20            0402 Resistor           0402_1005Metric                    R136             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R137             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R138             ---       10K             
+  49            0402 Resistor           0402_1005Metric                    R139             ---       56K             
+  20            0402 Resistor           0402_1005Metric                    R140             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R141             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R142             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R143             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R144             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R145             ---       10K             
+  37            0402 Resistor           0402_1005Metric                    R146             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R147             ---       270             
+  20            0402 Resistor           0402_1005Metric                    R148             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R149             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R150             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R151             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R152             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R153             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R154             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R155             ---       10K             
+  37            0402 Resistor           0402_1005Metric                    R156             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R157             ---       270             
+  37            0402 Resistor           0402_1005Metric                    R158             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R159             ---       270             
+  37            0402 Resistor           0402_1005Metric                    R160             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R161             ---       270             
+  37            0402 Resistor           0402_1005Metric                    R162             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R163             ---       270             
+  37            0402 Resistor           0402_1005Metric                    R164             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R165             ---       270             
+  37            0402 Resistor           0402_1005Metric                    R166             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R167             ---       270             
+  37            0402 Resistor           0402_1005Metric                    R168             ---       240             
+  38            0402 Resistor           0402_1005Metric                    R169             ---       270             
+  20            0402 Resistor           0402_1005Metric                    R170             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R171             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R172             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R173             ---       10K             
+  28            0402 Resistor           0402_1005Metric                    R174             ---       1K              
+  53            0402 Resistor           0402_1005Metric                    R175             ---       DNF             
+  48            0402 Resistor           0402_1005Metric                    R176             ---       4K7             
+  40            0402 Resistor           0402_1005Metric                    R177             ---       2K4             
+  48            0402 Resistor           0402_1005Metric                    R178             ---       4K7             
+  48            0402 Resistor           0402_1005Metric                    R179             ---       4K7             
+  48            0402 Resistor           0402_1005Metric                    R180             ---       4K7             
+  40            0402 Resistor           0402_1005Metric                    R181             ---       2K4             
+  48            0402 Resistor           0402_1005Metric                    R182             ---       4K7             
+  48            0402 Resistor           0402_1005Metric                    R183             ---       4K7             
+  48            0402 Resistor           0402_1005Metric                    R184             ---       4K7             
+  38            0402 Resistor           0402_1005Metric                    R185             ---       270             
+  37            0402 Resistor           0402_1005Metric                    R186             ---       240             
+  48            0402 Resistor           0402_1005Metric                    R187             ---       4K7             
+  38            0402 Resistor           0402_1005Metric                    R188             ---       270             
+  16            0402 Resistor           0402_1005Metric                    R189             ---       0R              
+  28            0402 Resistor           0402_1005Metric                    R190             ---       1K              
+  28            0402 Resistor           0402_1005Metric                    R191             ---       1K              
+  28            0402 Resistor           0402_1005Metric                    R192             ---       1K              
+  28            0402 Resistor           0402_1005Metric                    R193             ---       1K              
+  53            0402 Resistor           0402_1005Metric                    R194             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R195             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R196             ---       DNF             
+  20            0402 Resistor           0402_1005Metric                    R197             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R198             ---       10K             
+  53            0402 Resistor           0402_1005Metric                    R199             ---       DNF             
+  48            0402 Resistor           0402_1005Metric                    R200             ---       4K7             
+  37            0402 Resistor           0402_1005Metric                    R201             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R202             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R203             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R204             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R205             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R206             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R207             ---       240             
+  17            0402 Resistor           0402_1005Metric                    R208             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R209             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R210             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R211             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R212             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R213             ---       100             
+  37            0402 Resistor           0402_1005Metric                    R214             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R215             ---       240             
+  20            0402 Resistor           0402_1005Metric                    R216             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R217             ---       10K             
+  44            0402 Resistor           0402_1005Metric                    R218             ---       3K48            
+  48            0402 Resistor           0402_1005Metric                    R219             ---       4K7             
+  20            0402 Resistor           0402_1005Metric                    R220             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R221             ---       10K             
+  20            0402 Resistor           0402_1005Metric                    R222             ---       10K             
+  17            0402 Resistor           0402_1005Metric                    R223             ---       100             
+  37            0402 Resistor           0402_1005Metric                    R224             ---       240             
+  37            0402 Resistor           0402_1005Metric                    R225             ---       240             
+  17            0402 Resistor           0402_1005Metric                    R226             ---       100             
+  53            0402 Resistor           0402_1005Metric                    R227             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R228             ---       DNF             
+  17            0402 Resistor           0402_1005Metric                    R229             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R230             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R231             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R232             ---       100             
+  17            0402 Resistor           0402_1005Metric                    R233             ---       100             
+  53            0402 Resistor           0402_1005Metric                    R234             ---       DNF             
+  37            0402 Resistor           0402_1005Metric                    R235             ---       240             
+  31            0402 Resistor           0402_1005Metric                    R236             ---       200             
+  31            0402 Resistor           0402_1005Metric                    R237             ---       200             
+  15            0402 Resistor           0402_1005Metric                    R238             ---       0               
+  15            0402 Resistor           0402_1005Metric                    R239             ---       0               
+  15            0402 Resistor           0402_1005Metric                    R240             ---       0               
+  53            0402 Resistor           0402_1005Metric                    R241             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R242             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R243             ---       DNF             
+  53            0402 Resistor           0402_1005Metric                    R244             ---       DNF             
+  18            0402 Resistor           0402_1005Metric                    R245             ---       100K            
+  15            0402 Resistor           0402_1005Metric                    R246             ---       0               
+  53            0402 Resistor           0402_1005Metric                    R247             ---       DNF             
+  18            0402 Resistor           0402_1005Metric                    R248             ---       100K            
+  15            0402 Resistor           0402_1005Metric                    R249             ---       0               
+  53            0402 Resistor           0402_1005Metric                    R250             ---       DNF             
+  18            0402 Resistor           0402_1005Metric                    R251             ---       100K            
+  15            0402 Resistor           0402_1005Metric                    R252             ---       0               
+  53            0402 Resistor           0402_1005Metric                    R253             ---       DNF             
+  48            0402 Resistor           0402_1005Metric                    R254             ---       4K7             
+  15            0402 Resistor           0402_1005Metric                    R255             ---       0               
+  53            0402 Resistor           0402_1005Metric                    R256             ---       DNF             
+  18            0402 Resistor           0402_1005Metric                    R257             ---       100K            
+  23            0402 Resistor           0402_1005Metric                    R258             ---       12K             
+  33            0402 Resistor           0402_1005Metric                    R259             ---       20K             
+  15            0402 Resistor           0402_1005Metric                    R260             ---       0               
+  15            0402 Resistor           0402_1005Metric                    R261             ---       0               
+  15            0402 Resistor           0402_1005Metric                    R262             ---       0               
+  15            0402 Resistor           0402_1005Metric                    R263             ---       0               
+  15            0402 Resistor           0402_1005Metric                    R264             ---       0               
+  28            0402 Resistor           0402_1005Metric                    R265             ---       1K              
+  35            0402 Resistor           0402_1005Metric                    R266             ---       22K1            
+  45            0402 Resistor           0402_1005Metric                    R267             ---       47K5            
+  95            Molex 105017-0001       molex_105017-0001                  SK1              ---                       
+  95            Molex 105017-0001       molex_105017-0001                  SK2              ---                       
+  108           TE_5-1814400-2          TE_5-1814400-2                     SK3              ---                       
+  108           TE_5-1814400-2          TE_5-1814400-2                     SK4              ---                       
+  94            MCX-J-P-H-ST-SM1        MCX-J-P-H-ST-SM1                   SK5              ---                       
+  94            MCX-J-P-H-ST-SM1        MCX-J-P-H-ST-SM1                   SK6              ---                       
+  95            Molex 105017-0001       molex_105017-0001                  SK7              ---                       
+  107           Star Point              star_pointx4                       SP1              ---                       
+  107           Star Point              star_pointx4                       SP2              ---                       
+  107           Star Point              star_pointx4                       SP3              ---                       
+  107           Star Point              star_pointx4                       SP4              ---                       
+  107           Star Point              star_pointx4                       SP5              ---                       
+  107           Star Point              star_pointx4                       SP6              ---                       
+  107           Star Point              star_pointx4                       SP7              ---                       
+  107           Star Point              star_pointx4                       SP8              ---                       
+  107           Star Point              star_pointx4                       SP9              ---                       
+  107           Star Point              star_pointx4                       SP10             ---                       
+  107           Star Point              star_pointx4                       SP11             ---                       
+  107           Star Point              star_pointx4                       SP12             ---                       
+  107           Star Point              star_pointx4                       SP13             ---                       
+  107           Star Point              star_pointx4                       SP14             ---                       
+  107           Star Point              star_pointx4                       SP15             ---                       
+  107           Star Point              star_pointx4                       SP16             ---                       
+  107           Star Point              star_pointx4                       SP17             ---                       
+  107           Star Point              star_pointx4                       SP18             ---                       
+  107           Star Point              star_pointx4                       SP19             ---                       
+  107           Star Point              star_pointx4                       SP20             ---                       
+  107           Star Point              star_pointx4                       SP21             ---                       
+  107           Star Point              star_pointx4                       SP22             ---                       
+  107           Star Point              star_pointx4                       SP23             ---                       
+  107           Star Point              star_pointx4                       SP24             ---                       
+  107           Star Point              star_pointx4                       SP25             ---                       
+  107           Star Point              star_pointx4                       SP26             ---                       
+  107           Star Point              star_pointx4                       SP27             ---                       
+  107           Star Point              star_pointx4                       SP28             ---                       
+  107           Star Point              star_pointx4                       SP29             ---                       
+  107           Star Point              star_pointx4                       SP30             ---                       
+  107           Star Point              star_pointx4                       SP31             ---                       
+  107           Star Point              star_pointx4                       SP32             ---                       
+  107           Star Point              star_pointx4                       SP33             ---                       
+  107           Star Point              star_pointx4                       SP34             ---                       
+  107           Star Point              star_pointx4                       SP35             ---                       
+  107           Star Point              star_pointx4                       SP36             ---                       
+  107           Star Point              star_pointx4                       SP37             ---                       
+  107           Star Point              star_pointx4                       SP38             ---                       
+  107           Star Point              star_pointx4                       SP39             ---                       
+  107           Star Point              star_pointx4                       SP40             ---                       
+  107           Star Point              star_pointx4                       SP41             ---                       
+  107           Star Point              star_pointx4                       SP42             ---                       
+  107           Star Point              star_pointx4                       SP43             ---                       
+  107           Star Point              star_pointx4                       SP44             ---                       
+  107           Star Point              star_pointx4                       SP45             ---                       
+  107           Star Point              star_pointx4                       SP46             ---                       
+  107           Star Point              star_pointx4                       SP47             ---                       
+  107           Star Point              star_pointx4                       SP48             ---                       
+  107           Star Point              star_pointx4                       SP49             ---                       
+  72            B3F-1020                b3f-1020                           SW1              ---                       
+  72            B3F-1020                b3f-1020                           SW2              ---                       
+  72            B3F-1020                b3f-1020                           SW3              ---                       
+  72            B3F-1020                b3f-1020                           SW4              ---                       
+  103           Si2300DS                SOT23                              TR1              ---                       
+  73            BSC030N03MS             PG-TDSON-8                         TR2              ---                       
+  73            BSC030N03MS             PG-TDSON-8                         TR3              ---                       
+  74            BSC059N04LS             PG-TDSON-8                         TR4              ---                       
+  74            BSC059N04LS             PG-TDSON-8                         TR5              ---                       
+  75            BSS138                  SOT23                              TR6              ---                       
+  75            BSS138                  SOT23                              TR7              ---                       
+  75            BSS138                  SOT23                              TR8              ---                       
+  75            BSS138                  SOT23                              TR9              ---                       
+  75            BSS138                  SOT23                              TR10             ---                       
+  75            BSS138                  SOT23                              TR11             ---                       
+  75            BSS138                  SOT23                              TR12             ---                       
+  75            BSS138                  SOT23                              TR13             ---                       
+  75            BSS138                  SOT23                              TR14             ---                       
+  75            BSS138                  SOT23                              TR15             ---                       
+  75            BSS138                  SOT23                              TR16             ---                       
+  75            BSS138                  SOT23                              TR17             ---                       
+  75            BSS138                  SOT23                              TR18             ---                       
+  75            BSS138                  SOT23                              TR19             ---                       
+  75            BSS138                  SOT23                              TR20             ---                       
+  75            BSS138                  SOT23                              TR21             ---                       
+  80            CP2102N-A02-GQFN20      CP2102NA02GQFN20                   U1               ---                       
+  112           XCKU040-2FFVA1156E      FFVA1156                           U2               ---                       
+  85            FIN1104MTC              SOP65P640X110-24N                  U3               ---                       
+  85            FIN1104MTC              SOP65P640X110-24N                  U4               ---                       
+  85            FIN1104MTC              SOP65P640X110-24N                  U5               ---                       
+  66            AD9680BCPZ-500          QFN50P900X900X80-65N-D             U6               ---                       
+  66            AD9680BCPZ-500          QFN50P900X900X80-65N-D             U7               ---                       
+  65            AD9528                  QFN50P1000X1000X100-73N-D          U8               ---                       
+  82            Digilent 410-308-B      410308B_digilentJTAG               U9               ---                       
+  64            AD9152BCPZ              QFN50P800X800X80-57N-D             U10              ---                       
+  80            CP2102N-A02-GQFN20      CP2102NA02GQFN20                   U11              ---                       
+  104           SN74AVC4T245RSVR        SN74AVC4T245RSVR                   U13              ---                       
+  100           MT25QU256ABA8ESF-0SIT   SOIC127P1032X265-16N               U14              ---                       
+  100           MT25QU256ABA8ESF-0SIT   SOIC127P1032X265-16N               U15              ---                       
+  93            MAX4036EXK+T            SOT65P210X110-5N                   U16              ---                       
+  69            ADP2303ARDZ             SOIC127P600X175-9N_EP              VR1              ---                       
+  69            ADP2303ARDZ             SOIC127P600X175-9N_EP              VR2              ---                       
+  69            ADP2303ARDZ             SOIC127P600X175-9N_EP              VR3              ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             VR4              ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             VR5              ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             VR6              ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             VR7              ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             VR8              ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             VR9              ---                       
+  67            ADP1741ACPZ             QFN65P400X400X80-17N-D             VR10             ---                       
+  68            ADP1850ACPZ             QFN50P500X500X75-33N               VR11             ---                       
+  78            CCPD-575X-50-100.000    XTAL5x7.5mm                        X1               ---                       
+  71            ASE-25.000MHZ-LC-T      ASE24576MHZLCT                     X2               ---                       
+
+

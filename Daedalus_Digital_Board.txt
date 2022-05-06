@@ -1,0 +1,209 @@
+Part Lister output for Daedalus_Digital_Board
+Generated on Friday, May 06, 2022
+	#   	QTY 	Part Number     	Description                               	Value	Ref Designator 	
+---------------------------------------------------------------------------------------------
+	 1  	 54 	0402 Capacitor  	                                          	4.7uF	C1-C7,C14-C47, 	
+	    	    	                	                                          	 6V3 	C51,C53,C60,   	
+	    	    	                	                                          	X5R  	C62,C63,C65,   	
+	    	    	                	                                          	     	C73,C75,       	
+	    	    	                	                                          	     	C77-C80,C354   	
+	 2  	 9  	0402 Capacitor  	                                          	470nF	C8-C13,C50,C59,	
+	    	    	                	                                          	 10V 	C74            	
+	    	    	                	                                          	X5R  	               	
+	 3  	 12 	0402 Capacitor  	                                          	DNF  	C48,C55-C58,   	
+	    	    	                	                                          	     	C61,C66-C71    	
+	 4  	 6  	0402 Capacitor  	                                          	220nF	C49,C52,C54,   	
+	    	    	                	                                          	 6V3 	C64,C72,C76    	
+	    	    	                	                                          	X6S  	               	
+	 5  	 14 	0402 Capacitor  	                                          	100nF	C81-C86,C89,   	
+	    	    	                	                                          	 16V 	C90,C139-C142, 	
+	    	    	                	                                          	     	C357,C358      	
+	 6  	 40 	GRM155R71H103KA8	                                          	0.01u	C87,C88,       	
+	    	    	8D              	                                          	F    	C273-C310      	
+	 7  	 34 	0402 Capacitor  	                                          	100nF	C91,C92,C97,   	
+	    	    	                	                                          	     	C101,C103,C104,	
+	    	    	                	                                          	     	C115-C123,     	
+	    	    	                	                                          	     	C128-C133,C329,	
+	    	    	                	                                          	     	C331,C333,C335,	
+	    	    	                	                                          	     	C337,C339,C341,	
+	    	    	                	                                          	     	C343-C348      	
+	 8  	 2  	0402 Capacitor  	                                          	47pF 	C93,C99        	
+	 9  	 2  	0402 Capacitor  	                                          	560pF	C94,C100       	
+	 10 	 2  	0402 Capacitor  	                                          	1uF  	C95,C96        	
+	 11 	 2  	0402 Capacitor  	                                          	22pF 	C98,C102       	
+	 12 	 27 	0402 Capacitor  	                                          	10nF 	C105-C112,     	
+	    	    	                	                                          	     	C124-C127,     	
+	    	    	                	                                          	     	C134-C137,C313,	
+	    	    	                	                                          	     	C330,C332,C334,	
+	    	    	                	                                          	     	C336,C338,C340,	
+	    	    	                	                                          	     	C342,C349-C351 	
+	 13 	 1  	0402 Capacitor  	                                          	470nF	C113           	
+	 14 	 1  	0402 Capacitor  	                                          	1nF  	C114           	
+	 15 	 1  	0402 Capacitor  	                                          	100nF	C138           	
+	    	    	                	                                          	 25V 	               	
+	 16 	 32 	1206 Capacitor  	                                          	100uF	C143-C174      	
+	    	    	                	                                          	 4V X	               	
+	    	    	                	                                          	6S   	               	
+	 17 	 11 	1206 Capacitor  	                                          	10uF 	C175,C176,C179,	
+	    	    	                	                                          	25V  	C182,C185-C189,	
+	    	    	                	                                          	     	C355,C356      	
+	 18 	 6  	1206 Capacitor  	                                          	47uF 	C177,C178,C180,	
+	    	    	                	                                          	6V3  	C181,C183,C184 	
+	 19 	 54 	GRM155R71C104JA8	                                          	0.1uF	C190,C192-C197,	
+	    	    	8D              	                                          	     	C199-C201,C203,	
+	    	    	                	                                          	     	C205-C210,     	
+	    	    	                	                                          	     	C212-C214,C217,	
+	    	    	                	                                          	     	C219,C221,C222,	
+	    	    	                	                                          	     	C224-C241,     	
+	    	    	                	                                          	     	C314-C324,C352 	
+	 20 	 14 	GRJ155R60J106ME1	                                          	10uF 	C191,C198,C202,	
+	    	    	1D              	                                          	     	C204,C211,C215,	
+	    	    	                	                                          	     	C216,C218,C220,	
+	    	    	                	                                          	     	C223,C325-C328 	
+	 21 	 8  	Case D Tantalum 	                                          	470uF	C242-C249      	
+	    	    	                	                                          	 2V  	               	
+	 22 	 5  	1210 Capacitor  	                                          	100uF	C250-C254      	
+	    	    	                	                                          	 6V3 	               	
+	    	    	                	                                          	X6S  	               	
+	 23 	 2  	1210 Capacitor  	                                          	47uF 	C255,C256      	
+	    	    	                	                                          	6V3 X	               	
+	    	    	                	                                          	6S   	               	
+	 24 	 4  	0603 Capacitor  	                                          	4u7 1	C257,C258,C359,	
+	    	    	                	                                          	0V   	C360           	
+	 25 	 14 	0603 Capacitor  	                                          	4.7uF	C259-C272      	
+	    	    	                	                                          	 6V3 	               	
+	 26 	 2  	0805 Capacitor  	                                          	1uF 1	C311,C312      	
+	    	    	                	                                          	6V   	               	
+	 27 	 1  	GCM1555C1H101JA1	                                          	100pF	C353           	
+	    	    	6D              	                                          	     	               	
+	 28 	 3  	SSB43LHE3       	                                          	     	D1-D3          	
+	 29 	 1  	RFN20NS6STL     	                                          	     	D4             	
+	 30 	 1  	1N4148W T4      	                                          	     	D5             	
+	 31 	 1  	DDZ9678         	                                          	     	D6             	
+	 32 	 2  	SP0503BAHTG     	                                          	     	D7,D13         	
+	 33 	 4  	BZT52HC3V3WF-7  	                                          	     	D9-D12         	
+	 34 	 1  	LTST-C191KRKT   	                                          	     	DS1            	
+	 35 	 11 	APHB1608CGKSURKC	                                          	     	DS2-DS11,DS13  	
+	 36 	 1  	LTST-C191KGKT   	                                          	     	DS12           	
+	 37 	 1  	SF-1206HH15M-2  	                                          	     	F1             	
+	 38 	 1  	Molex_22-11-2032	                                          	     	J1             	
+	 39 	 1  	Harwin_M300-MV30	                                          	     	J2             	
+	    	    	645M1           	                                          	     	               	
+	 40 	 2  	Molex 52745-2097	                                          	     	J3,J4          	
+	 41 	 1  	Molex 87832-1420	                                          	     	J5             	
+	 42 	 2  	Molex 53261-1571	                                          	     	J6,J7          	
+	 43 	 1  	5x1 Header      	                                          	     	J9             	
+	 44 	 2  	DLFCN-290+      	                                          	     	L1,L2          	
+	 45 	 2  	Wurth 744325120 	                                          	     	L3,L4          	
+	 46 	 3  	CLF10060NIT-4R7N	                                          	     	L5-L7          	
+	    	    	-D              	                                          	     	               	
+	 47 	 2  	ETC1-1-13TR     	                                          	     	L8,L9          	
+	 48 	 1  	Wurth 7443101201	                                          	     	L10            	
+	    	    	2               	                                          	     	               	
+	 49 	 2  	Wurth 742792312 	                                          	     	L11,L12        	
+	 50 	 36 	0402 Resistor   	                                          	100  	R1,R16-R19,    	
+	    	    	                	                                          	     	R23-R36,R38,   	
+	    	    	                	                                          	     	R129-R131,     	
+	    	    	                	                                          	     	R208-R213,R223,	
+	    	    	                	                                          	     	R226,R229-R233 	
+	 51 	 8  	0402 Resistor   	                                          	200  	R2-R7,R236,R237	
+	 52 	 25 	0402 Resistor   	                                          	10K  	R8,R9,R12-R15, 	
+	    	    	                	                                          	     	R20-R22,R66,   	
+	    	    	                	                                          	     	R76,R78,R95,   	
+	    	    	                	                                          	     	R136-R138,R140,	
+	    	    	                	                                          	     	R141,R197,R198,	
+	    	    	                	                                          	     	R216,R217,     	
+	    	    	                	                                          	     	R220-R222      	
+	 53 	 40 	0402 Resistor   	                                          	DNF  	R10,R11,R71,   	
+	    	    	                	                                          	     	R80,R86,R94,   	
+	    	    	                	                                          	     	R107-R120,     	
+	    	    	                	                                          	     	R123-R126,R175,	
+	    	    	                	                                          	     	R194-R196,R199,	
+	    	    	                	                                          	     	R227,R228,R234,	
+	    	    	                	                                          	     	R241-R244,R247,	
+	    	    	                	                                          	     	R250,R253,R256 	
+	 54 	 7  	0402 Resistor   	                                          	49R9 	R37,R102-R105, 	
+	    	    	                	                                          	     	R121,R122      	
+	 55 	 23 	0402 Resistor   	                                          	240  	R42,R55,R146,  	
+	    	    	                	                                          	     	R156,R158,R160,	
+	    	    	                	                                          	     	R162,R164,R166,	
+	    	    	                	                                          	     	R168,R186,     	
+	    	    	                	                                          	     	R201-R207,R214,	
+	    	    	                	                                          	     	R215,R224,R225,	
+	    	    	                	                                          	     	R235           	
+	 56 	 12 	0402 Resistor   	                                          	270  	R43,R106,R147, 	
+	    	    	                	                                          	     	R157,R159,R161,	
+	    	    	                	                                          	     	R163,R165,R167,	
+	    	    	                	                                          	     	R169,R185,R188 	
+	 57 	 19 	0402 Resistor   	                                          	0    	R44-R47,R83,   	
+	    	    	                	                                          	     	R91,R100,      	
+	    	    	                	                                          	     	R238-R240,R246,	
+	    	    	                	                                          	     	R249,R252,R255,	
+	    	    	                	                                          	     	R260-R264      	
+	 58 	 9  	0402 Resistor   	                                          	1K   	R48,R75,R77,   	
+	    	    	                	                                          	     	R174,R190-R193,	
+	    	    	                	                                          	     	R265           	
+	 59 	 2  	0402 Resistor   	                                          	22K1 	R49,R266       	
+	 60 	 2  	0402 Resistor   	                                          	47K5 	R50,R267       	
+	 61 	 12 	0402 Resistor   	                                          	4K7  	R51,R176,      	
+	    	    	                	                                          	     	R178-R180,     	
+	    	    	                	                                          	     	R182-R184,R187,	
+	    	    	                	                                          	     	R200,R219,R254 	
+	 62 	 2  	0402 Resistor   	                                          	200R 	R52,R53        	
+	 63 	 1  	0402 Resistor   	                                          	100R 	R54            	
+	 64 	 1  	0402 Resistor   	                                          	2K   	R56            	
+	 65 	 1  	0402 Resistor   	                                          	84K5 	R57            	
+	 66 	 2  	0402 Resistor   	                                          	150K 	R58,R59        	
+	 67 	 2  	0402 Resistor   	                                          	23K2 	R60,R72        	
+	 68 	 1  	0402 Resistor   	                                          	2R   	R61            	
+	 69 	 4  	0402 Resistor   	                                          	22K  	R62,R63,R69,R70	
+	 70 	 2  	0402 Resistor   	                                          	1K5  	R64,R73        	
+	 71 	 2  	0402 Resistor   	                                          	20K  	R65,R259       	
+	 72 	 1  	0402 Resistor   	                                          	10K5 	R67            	
+	 73 	 3  	0402 Resistor   	                                          	18K  	R68,R90,R93    	
+	 74 	 7  	0402 Resistor   	                                          	100K 	R74,R97,R101,  	
+	    	    	                	                                          	     	R245,R248,R251,	
+	    	    	                	                                          	     	R257           	
+	 75 	 1  	0402 Resistor   	                                          	5K6  	R79            	
+	 76 	 7  	0402 Resistor   	                                          	12K  	R81,R84,       	
+	    	    	                	                                          	     	R87-R89,R92,   	
+	    	    	                	                                          	     	R258           	
+	 77 	 2  	0402 Resistor   	                                          	16K9 	R82,R85        	
+	 78 	 2  	0402 Resistor   	                                          	56K  	R96,R139       	
+	 79 	 1  	0402 Resistor   	                                          	9K   	R98            	
+	 80 	 2  	0402 Resistor   	                                          	36K  	R99,R135       	
+	 81 	 2  	0402 Resistor   	                                          	1R   	R127,R128      	
+	 82 	 1  	0402 Resistor   	                                          	4K02 	R132           	
+	 83 	 1  	0402 Resistor   	                                          	31K6 	R133           	
+	 84 	 1  	0402 Resistor   	                                          	10K2 	R134           	
+	 85 	 2  	0402 Resistor   	                                          	2K4  	R177,R181      	
+	 86 	 1  	0402 Resistor   	                                          	0R   	R189           	
+	 87 	 1  	0402 Resistor   	                                          	3K48 	R218           	
+	 88 	 2  	Molex 105017-000	                                          	     	SK2,SK7        	
+	    	    	1               	                                          	     	               	
+	 89 	 2  	TE_5-1814400-2  	                                          	     	SK3,SK4        	
+	 90 	 2  	MCX-J-P-H-ST-SM1	                                          	     	SK5,SK6        	
+	 91 	 49 	Star Point      	                                          	     	SP1-SP49       	
+	 92 	 4  	B3F-1020        	                                          	     	SW1-SW4        	
+	 93 	 1  	Si2300DS        	                                          	     	TR1            	
+	 94 	 2  	BSC030N03MS     	                                          	     	TR2,TR3        	
+	 95 	 2  	BSC059N04LS     	                                          	     	TR4,TR5        	
+	 96 	 2  	CP2102N-A02-GQFN	                                          	     	U1,U11         	
+	    	    	20              	                                          	     	               	
+	 97 	 1  	XCKU040-2FFVA115	                                          	     	U2             	
+	    	    	6E              	                                          	     	               	
+	 98 	 3  	FIN1104MTC      	                                          	     	U3-U5          	
+	 99 	 2  	AD9680BCPZ-500  	                                          	     	U6,U7          	
+	100 	 1  	AD9528          	                                          	     	U8             	
+	101 	 1  	AD9152BCPZ      	                                          	     	U10            	
+	102 	 1  	SN74AVC4T245RSVR	                                          	     	U13            	
+	103 	 2  	MT25QU256ABA8ESF	                                          	     	U14,U15        	
+	    	    	-0SIT           	                                          	     	               	
+	104 	 1  	MAX4036EXK+T    	                                          	     	U16            	
+	105 	 3  	ADP2303ARDZ     	                                          	     	VR1-VR3        	
+	106 	 7  	ADP1741ACPZ     	                                          	     	VR4-VR10       	
+	107 	 1  	ADP1850ACPZ     	                                          	     	VR11           	
+	108 	 1  	CCPD-575X-50-100	                                          	     	X1             	
+	    	    	.000            	                                          	     	               	
+	109 	 1  	ASE-25.000MHZ-LC	                                          	     	X2             	
+	    	    	-T              	                                          	     	               	
