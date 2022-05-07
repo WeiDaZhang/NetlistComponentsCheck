@@ -2,6 +2,7 @@
 Read netlist file
 Performed on 2022 May 05
 Daedalus_Digital_Board_050522.qcv
+Daedalus_Digital_Board.txt
 """
 
 import time
@@ -9,17 +10,35 @@ import math
 import os
 import string
 import csv
+from datetime import datetime
 
-def print_components_on_multiconn_nets(bom_items, multiconn_nets):
+def txt_components_on_multiconn_nets(bom_items, multiconn_nets):
+    txt_lines = list()
+    max_len_part_num_in_bom = 0
+    for bom_item in bom_items:
+        if len(bom_item['Part Number']) > max_len_part_num_in_bom:
+            max_len_part_num_in_bom = len(bom_item['Part Number'])
+    str_format = '{:<8}{:<' + str(max_len_part_num_in_bom + 4) + '}{:<8}'
     for multiconn_net in multiconn_nets:
-        print('Net Name: ', multiconn_net['Net Name'])
+        txt_lines.append('')
+        txt_lines.append('-------------------------')
+        txt_lines.append('Net Name: {}'.format(multiconn_net['Net Name']))
+        txt_lines.append(str_format.format('Amount','Part Number','Value'))
         for bom_item_num in multiconn_net['BOM Item'].keys():
             for bom_item in bom_items:
                 if bom_item['#'] == bom_item_num:
-                    print('\tPart Number: ', bom_item['Part Number'])
-                    print('\tValue: ', bom_item['Value'])
-                    print('\tAmount: ', multiconn_net['BOM Item'][bom_item_num])
-        print('\n')
+                    txt_lines.append(str_format.format(multiconn_net['BOM Item'][bom_item_num],
+                                                             bom_item['Part Number'],
+                                                             bom_item['Value']))
+    for txt_line in txt_lines:
+        print(txt_line)
+    file_txt_lines = list()
+    for txt_line in txt_lines:
+        file_txt_lines.append(txt_line + '\n')
+    curDT = datetime.now()
+    f = open('check_result_{}.txt'.format(curDT.strftime("%m_%d_%Y_%H_%M_%S")), 'w')
+    f.writelines(file_txt_lines)
+    f.close()
 
 
 def find_components_on_nets(nets, bom_items, n_conns):
@@ -50,7 +69,7 @@ def find_components_on_nets(nets, bom_items, n_conns):
 
 def read_bom():
     while True:
-        print('Enter Netlist (*.bom) file name and path:')
+        print('Enter BOM (*.txt) file name and path:')
         res = input()
         try:
             f = open(res, "r")
@@ -188,7 +207,7 @@ def main():
     nets = read_netlist()
     bom_items = read_bom()
     multiconn_nets = find_components_on_nets(nets, bom_items, 5)
-    print_components_on_multiconn_nets(bom_items, multiconn_nets)
+    txt_components_on_multiconn_nets(bom_items, multiconn_nets)
 
 if __name__ == '__main__':
     main()
