@@ -10,7 +10,64 @@ import math
 import os
 import string
 import csv
+import numpy as np
+import Levenshtein
 from datetime import datetime
+
+def write_check_result_to_file(component_check_txt_lines, net_name_check_txt_lines):
+    file_txt_lines = component_check_txt_lines
+    file_txt_lines.extend(net_name_check_txt_lines)
+    curDT = datetime.now()
+    f = open('check_result_{}.txt'.format(curDT.strftime("%m_%d_%Y_%H_%M_%S")), 'w')
+    f.writelines(file_txt_lines)
+    f.close()
+
+
+def net_name_typo_check(nets):
+    netname_list = list(nets.keys())
+    netname_Levenshtein_Dis_Matrix = np.ones((len(netname_list),len(netname_list)))
+    netname_Jaro_Winkler_Dis_Matrix = np.zeros((len(netname_list),len(netname_list)))
+    for idx_netname in range(len(netname_list)):
+        for idy_netname in range(len(netname_list)):
+            netname_Levenshtein_Dis_Matrix[idx_netname][idy_netname] = Levenshtein.distance(netname_list[idx_netname],
+                                                                                            netname_list[idy_netname])
+            netname_Jaro_Winkler_Dis_Matrix[idx_netname][idy_netname] = Levenshtein.jaro_winkler(netname_list[idx_netname],
+                                                                                                 netname_list[idy_netname],
+                                                                                                 0.1)
+
+    Levenshtein_Dis_Threshold = 3
+    Jaro_Winkler_Dis_Threshold = 0.97
+    similar_netname_cnt = 0
+    total_similar_netname_cnt = 0
+    
+    txt_lines = list()
+    for idx in range(len(netname_list)):
+        if(netname_list[idx].startswith('$')):
+            continue
+        txt_lines.append('== Checking Net Name =======================')
+        txt_lines.append('    ' + netname_list[idx])
+        txt_lines.append('-- Suspected Typos -------------------------')
+        similar_netname_cnt = 0
+        for idy in range(len(netname_list)):
+            if(idx == idy):
+                continue
+            if(netname_Levenshtein_Dis_Matrix[idx, idy]) < Levenshtein_Dis_Threshold :
+                txt_lines.append('    ' + netname_list[idy])
+                similar_netname_cnt += 1
+            elif(netname_Jaro_Winkler_Dis_Matrix[idx, idy]) > Jaro_Winkler_Dis_Threshold :
+                txt_lines.append('    ' + netname_list[idy])
+                similar_netname_cnt += 1
+        if(similar_netname_cnt == 0):
+            txt_lines.append('    [None]')
+        txt_lines.append('============================================')
+        total_similar_netname_cnt += similar_netname_cnt
+    txt_lines.append('===== Total Suspected Typos: {} ==========='.format(total_similar_netname_cnt))
+    for txt_line in txt_lines:
+        print(txt_line)
+    net_name_check_txt_lines = list()
+    for txt_line in txt_lines:
+        net_name_check_txt_lines.append(txt_line + '\n')
+    return net_name_check_txt_lines
 
 def txt_components_on_multiconn_nets(bom_items, multiconn_nets):
     txt_lines = list()
@@ -39,10 +96,7 @@ def txt_components_on_multiconn_nets(bom_items, multiconn_nets):
     file_txt_lines = list()
     for txt_line in txt_lines:
         file_txt_lines.append(txt_line + '\n')
-    curDT = datetime.now()
-    f = open('check_result_{}.txt'.format(curDT.strftime("%m_%d_%Y_%H_%M_%S")), 'w')
-    f.writelines(file_txt_lines)
-    f.close()
+    return file_txt_lines
 
 
 def find_components_on_nets(nets, bom_items, n_conns):
@@ -214,7 +268,9 @@ def main():
     nets = read_netlist()
     bom_items = read_bom()
     multiconn_nets = find_components_on_nets(nets, bom_items, 5)
-    txt_components_on_multiconn_nets(bom_items, multiconn_nets)
+    component_check_txt_lines = txt_components_on_multiconn_nets(bom_items, multiconn_nets)
+    net_name_check_txt_lines = net_name_typo_check(nets)
+    write_check_result_to_file(component_check_txt_lines, net_name_check_txt_lines)
 
 if __name__ == '__main__':
     main()
