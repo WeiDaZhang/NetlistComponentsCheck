@@ -36,7 +36,7 @@ def net_name_typo_check(nets):
                                                                                                  0.1)
 
     Levenshtein_Dis_Threshold = 3
-    Jaro_Winkler_Dis_Threshold = 0.97
+    Jaro_Winkler_Dis_Threshold = 0.975
     similar_netname_cnt = 0
     total_similar_netname_cnt = 0
     
@@ -57,8 +57,7 @@ def net_name_typo_check(nets):
             elif(netname_Jaro_Winkler_Dis_Matrix[idx, idy]) > Jaro_Winkler_Dis_Threshold :
                 txt_lines.append('    ' + netname_list[idy])
                 similar_netname_cnt += 1
-        if(similar_netname_cnt == 0):
-            txt_lines.append('    [None]')
+        txt_lines.append('    [Suspects {} + 1 Nets]'.format(similar_netname_cnt))
         txt_lines.append('============================================')
         total_similar_netname_cnt += similar_netname_cnt
     txt_lines.append('===== Total Suspected Typos: {} ==========='.format(total_similar_netname_cnt))
@@ -78,19 +77,23 @@ def txt_components_on_multiconn_nets(bom_items, multiconn_nets):
             max_len_part_num_in_bom = len(bom_item['Part Number'])
         if len(bom_item['Value']) > max_len_value_in_bom:
             max_len_value_in_bom = len(bom_item['Value'])
-    str_format = '{:<8}{:<' + str(max_len_part_num_in_bom + 4) + '}{:<' + str(max_len_value_in_bom + 4) + '}{}'
+    str_format = '{:<8}{:<12}{:<' + str(max_len_part_num_in_bom + 4) + '}{:<' + str(max_len_value_in_bom + 4) + '}{}'
     for multiconn_net in multiconn_nets:
         txt_lines.append('')
         txt_lines.append('-------------------------')
         txt_lines.append('Net Name: {}'.format(multiconn_net['Net Name']))
-        txt_lines.append(str_format.format('Amount','Part Number','Value','RefDes'))
+        txt_lines.append(str_format.format('Amount','Connections','Part Number','Value','RefDes'))
         for bom_item_num in multiconn_net['BOM Item'].keys():
             for bom_item in bom_items:
                 if bom_item['#'] == bom_item_num:
+                    conns = 0
+                    for component in multiconn_net['BOM Item'][bom_item_num].keys():
+                        conns += multiconn_net['BOM Item'][bom_item_num][component]
                     txt_lines.append(str_format.format(len(multiconn_net['BOM Item'][bom_item_num]),
-                                                             bom_item['Part Number'],
-                                                             bom_item['Value'],
-                                                             multiconn_net['BOM Item'][bom_item_num]))
+                                                       conns,
+                                                       bom_item['Part Number'],
+                                                       bom_item['Value'],
+                                                       ','.join(list(multiconn_net['BOM Item'][bom_item_num].keys()))))
     for txt_line in txt_lines:
         print(txt_line)
     file_txt_lines = list()
@@ -117,14 +120,17 @@ def find_components_on_nets(nets, bom_items, n_conns):
                 for bom_component in bom_item['Ref Designator']:
                     if(bom_component == multi_conn_component):
                         bom_component_list = list()
-                        bom_component_list.append(bom_component)
+                        bom_component_list.append({bom_component: len(nets[multi_conn_net['Net Name']][bom_component])})
                         if('BOM Item' in multi_conn_net):
                             if bom_item['#'] in  multi_conn_net['BOM Item'].keys():
-                                multi_conn_net['BOM Item'][bom_item['#']].append(bom_component)
+                                multi_conn_net['BOM Item'][bom_item['#']][bom_component] = len(nets[multi_conn_net['Net Name']][bom_component])
+                                #multi_conn_net['BOM Item'][bom_item['#']].append({bom_component: len(nets[multi_conn_net['Net Name']][bom_component])})
                             else:
-                                multi_conn_net['BOM Item'][bom_item['#']] = bom_component_list
+                                #multi_conn_net['BOM Item'][bom_item['#']] = bom_component_list
+                                multi_conn_net['BOM Item'][bom_item['#']] = {bom_component: len(nets[multi_conn_net['Net Name']][bom_component])}
                         else:
-                            multi_conn_net['BOM Item'] = {bom_item['#']:bom_component_list}
+                            #multi_conn_net['BOM Item'] = {bom_item['#']:bom_component_list}
+                            multi_conn_net['BOM Item'] = {bom_item['#']:{bom_component: len(nets[multi_conn_net['Net Name']][bom_component])}}
     print(multi_conn_net_list)
     return multi_conn_net_list
 
