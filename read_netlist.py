@@ -51,10 +51,11 @@ def find_components_on_nets(nets, bom_items, n_conns):
     for netname in netname_list:
         if(len(nets[netname].keys()) > n_conns):
             multi_conn_net_list.append({'Net Name' : netname})
-    component_list = nets[netname].keys()
-    for component in component_list:
-        if(len(nets[netname][component]) > n_conns):
-            multi_conn_net_list.append({'Net Name' : netname})
+        else:
+            component_list = nets[netname].keys()
+            for component in component_list:
+                if(len(nets[netname][component]) > n_conns):
+                    multi_conn_net_list.append({'Net Name' : netname})
     for multi_conn_net in multi_conn_net_list:
         multi_conn_component_list = nets[multi_conn_net['Net Name']].keys()
         for multi_conn_component in multi_conn_component_list:
