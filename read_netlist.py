@@ -15,21 +15,25 @@ from datetime import datetime
 def txt_components_on_multiconn_nets(bom_items, multiconn_nets):
     txt_lines = list()
     max_len_part_num_in_bom = 0
+    max_len_value_in_bom = 0
     for bom_item in bom_items:
         if len(bom_item['Part Number']) > max_len_part_num_in_bom:
             max_len_part_num_in_bom = len(bom_item['Part Number'])
-    str_format = '{:<8}{:<' + str(max_len_part_num_in_bom + 4) + '}{:<8}'
+        if len(bom_item['Value']) > max_len_value_in_bom:
+            max_len_value_in_bom = len(bom_item['Value'])
+    str_format = '{:<8}{:<' + str(max_len_part_num_in_bom + 4) + '}{:<' + str(max_len_value_in_bom + 4) + '}{}'
     for multiconn_net in multiconn_nets:
         txt_lines.append('')
         txt_lines.append('-------------------------')
         txt_lines.append('Net Name: {}'.format(multiconn_net['Net Name']))
-        txt_lines.append(str_format.format('Amount','Part Number','Value'))
+        txt_lines.append(str_format.format('Amount','Part Number','Value','RefDes'))
         for bom_item_num in multiconn_net['BOM Item'].keys():
             for bom_item in bom_items:
                 if bom_item['#'] == bom_item_num:
-                    txt_lines.append(str_format.format(multiconn_net['BOM Item'][bom_item_num],
+                    txt_lines.append(str_format.format(len(multiconn_net['BOM Item'][bom_item_num]),
                                                              bom_item['Part Number'],
-                                                             bom_item['Value']))
+                                                             bom_item['Value'],
+                                                             multiconn_net['BOM Item'][bom_item_num]))
     for txt_line in txt_lines:
         print(txt_line)
     file_txt_lines = list()
@@ -57,13 +61,15 @@ def find_components_on_nets(nets, bom_items, n_conns):
             for bom_item in bom_items:
                 for bom_component in bom_item['Ref Designator']:
                     if(bom_component == multi_conn_component):
+                        bom_component_list = list()
+                        bom_component_list.append(bom_component)
                         if('BOM Item' in multi_conn_net):
                             if bom_item['#'] in  multi_conn_net['BOM Item'].keys():
-                                multi_conn_net['BOM Item'][bom_item['#']] += 1
+                                multi_conn_net['BOM Item'][bom_item['#']].append(bom_component)
                             else:
-                                multi_conn_net['BOM Item'][bom_item['#']] = 1
+                                multi_conn_net['BOM Item'][bom_item['#']] = bom_component_list
                         else:
-                            multi_conn_net['BOM Item'] = {bom_item['#']:1}
+                            multi_conn_net['BOM Item'] = {bom_item['#']:bom_component_list}
     print(multi_conn_net_list)
     return multi_conn_net_list
 
