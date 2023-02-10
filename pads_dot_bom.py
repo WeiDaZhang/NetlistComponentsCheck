@@ -407,6 +407,47 @@ def print_bom(bom_dict_list, header_index_list, filename):
             bom_item_list.append(bom_item_string)
     f.writelines(bom_item_list)
 
+def print_bom_csv(bom_dict_list, filename):
+    while True:
+        print('Enter New BOM (*.csv) file name and path:')
+        print('Modified from ', filename)
+        res = input()
+        try:
+            f = open(res, "w")
+            break
+        except (FileNotFoundError, OSError):
+            print("File exist.")
+
+    bom_dict_key_list = bom_dict_list[0].keys()
+    column_count = len(bom_dict_key_list)
+    bom_dict_key_str_list = list()
+    for bom_dict_key in bom_dict_key_list:
+        bom_dict_key_str_list.append(str(bom_dict_key))
+    bom_dict_order = [0, 1, 2, 3, 4, 6, 5]
+    bom_dict_key_order_list = [bom_dict_key_str_list[idx] for idx in bom_dict_order]
+
+    header_lines = list()
+    header_lines.append(''.join(('# Bill of Materials - Modified from ', filename, ',' * (column_count - 1), '\n')))
+    header_lines.append('# date: ' + str(datetime.now()) + ',' * (column_count - 1) + '\n')
+    header_lines.append(',' * (column_count - 1) + '\n')
+    header_lines.append(',' * (column_count - 1) + '\n')
+    header_lines.append(',' * (column_count - 1) + '\n')
+    f.writelines(header_lines)
+
+    bom_item_list = list()
+    bom_item_list.append(','.join(bom_dict_key_order_list) + '\n')
+    for bom_dict in bom_dict_list:
+        bom_dict_value_str_list = list()
+        bom_dict_value_list = bom_dict.values()
+        for bom_dict_value in bom_dict_value_list:
+            if isinstance(bom_dict_value, str):
+                bom_dict_value_str_list.append(bom_dict_value)
+            elif isinstance(bom_dict_value, list):
+                bom_dict_value_str_list.append(' '.join(bom_dict_value))
+        bom_dict_value_str_order_list = [bom_dict_value_str_list[idx] for idx in bom_dict_order]
+        bom_item_list.append(','.join(bom_dict_value_str_order_list) + '\n')
+    f.writelines(bom_item_list)
+
 def main():
     bom_items, header_index_list, filename = read_bom()
     check_bom(bom_items)
@@ -417,6 +458,7 @@ def main():
         print('Check RefDes           : CHECK REFDES [idx]')
         print('Modify BOM             : MODIFY BOM')
         print('Print BOM as .bom      : PRINT BOM')
+        print('Print BOM as .csv      : PRINT CSV')
         selec_menu = input('\nSelect Operation from Above List:').upper()
         if selec_menu.startswith('CHECK BOM '):
             if selec_menu[10:].isdigit():
@@ -428,6 +470,9 @@ def main():
             check_bom(bom_items)
         elif selec_menu.startswith('PRINT BOM'):
             print_bom(bom_items, header_index_list, filename)
+        elif selec_menu.startswith('PRINT CSV'):
+            print_bom_csv(bom_items, filename)
+
 
 if __name__ == '__main__':
     main()
